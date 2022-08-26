@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SQL</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+	<h1 class="underline">SQL интерпретатор</h1>
+	<div class="mainContainer">
+		<div class="workArea">
+			<textarea spellcheck="false" id="code"></textarea>
+			<div class="btnContainer">
+					<button id="run">Запустить</button>
+					<button id="load">Выгрузить</button>
+			</div>
+			<div class="result"></div>
+		</div>
+		<div class="tableListContainer">
+			<p class="tableListHeader underline">Список таблиц</p>
+			<div class="tableList">
+			</div>
+			<div class="btnContainer">
+					<button id="loadData">Загрузить данные</button>
+			</div>
+		</div>
+	</div>
+	<div class="wrap-logo">
+		<a href="https://kazan.avenue.school/"><img src="img/logo.png" alt="logo"></a>
+	</div>
+	<script src="js/queries.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
